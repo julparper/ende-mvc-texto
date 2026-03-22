@@ -4,21 +4,7 @@ Creación del proyecto usando MVC.
 
 La aplicación le solicita un texto al usuario, y se lo devuelve en mayúsculas.
 
-```plantuml
-@startuml
-skinparam style strictuml
-skinparam Monochrome true
-left to right direction
-
-actor "Usuario" as user
-
-rectangle "Aplicación de Texto" {
-    usecase "Transformar texto a mayúsculas" as UC1
-}
-
-user --> UC1 : Introduce texto y\nrecibe el resultado
-@enduml
-```
+![Diagrama de Componentes](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/julparper/ende-mvc-texto/main/uml/casosUso.pu)
 
 ## Consideraciones técnicas
 

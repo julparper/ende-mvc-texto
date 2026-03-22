@@ -1,0 +1,13 @@
+@startuml
+skinparam style strictuml
+skinparam Monochrome true
+left to right direction
+
+actor "Usuario" as user
+
+rectangle "Aplicación de Texto" {
+    usecase "Transformar texto a mayúsculas" as UC1
+}
+
+user --> UC1 : Introduce texto y\nrecibe el resultado
+@enduml
